@@ -5,7 +5,7 @@ using System.Text;
 string fileName = @"c:\temp\1.txt";
 
 StringBuilder sb = new StringBuilder();
-for(int i=0; i < 100; i++)
+for(int i= 100 - 1; i >= 0; i--)
 {
     sb.AppendLine("hello world. async");
 }
