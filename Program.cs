@@ -8,7 +8,8 @@ namespace ConsoleApp1
     {
         private static async Task Main(string[] args)
         {
-            await TaskCancelToken.MainRun();
+            //await TaskCancelToken.MainRun();
+            WhenAll.MainRun();
         }
 
         private static async Task MainRun()
