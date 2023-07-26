@@ -2,14 +2,15 @@
 
 using System.Text;
 
-namespace ConsoleApp1
+namespace BaseApp
 {
     class Program
     {
-        private static async Task Main(string[] args)
+        private static void Main(string[] args)
         {
-            //await TaskCancelToken.MainRun();
-            WhenAll.MainRun();
+            // await TaskCancelToken.MainRun();
+            // WhenAll.MainRun();
+            YieldList.MainRun();
         }
 
         private static async Task MainRun()

@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1
+﻿namespace BaseApp
 {
     internal class TaskCancelToken
     {
